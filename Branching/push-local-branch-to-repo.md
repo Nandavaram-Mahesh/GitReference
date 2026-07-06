@@ -3,6 +3,10 @@
 ## Create and switch to a new branch
 
 ``` bash
+
+git switch -c feature-branch from-branch(can be any branch)
+ex: git switch -c feature/slot-generation main
+
 git switch -c my-new-branch
 
 # Or (older syntax)
